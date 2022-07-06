@@ -1,3 +1,5 @@
+## Deployed link:- **[Click here to run the app](https://msc-shopping-cart.netlify.app/)**
+
 ## Getting Started
 
 In the project directory, you can run:
