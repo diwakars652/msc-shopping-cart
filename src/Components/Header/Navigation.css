@@ -1,0 +1,50 @@
+.container {
+  padding: 0 5%;
+  background: #fff;
+  box-shadow: 0 5px 6px -6px black;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li span {
+  color: #a770ef;
+  font-weight: bold;
+}
+
+.navbar {
+  /* cursor: pointer; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.navbar img {
+  width: 10rem;
+  height: auto;
+  display: block;
+}
+
+.navbar .cart {
+  text-decoration: none;
+}
+
+.navbar .cart-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar .cart-icon:hover {
+  transform: scale(1.3);
+}
+
+.navbar .cart-icon:active {
+  transform: scale(1.1);
+}

@@ -1,0 +1,34 @@
+.back-drop {
+    background: rgba(63, 61, 61, 0.692);
+    height: 100%;
+    position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+}
+.back-drop-checkout {
+    background: rgba(63, 61, 61, 0.692);
+    height: 100%;
+    position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+}
+@keyframes inAnimation {
+    0% {
+      opacity: 0;
+      right:0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes outAnimation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      right:0;
+    }
+  }
+  
